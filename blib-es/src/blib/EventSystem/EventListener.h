@@ -8,9 +8,6 @@ namespace blib {
 		public:
 			virtual void handle(Event* event) = 0;
 
-			/**
-			* return blib::es::EventListener::isEventType<TestEvent2>(event);
-			*/
 			virtual bool isEventType(Event* event) = 0;
 
 			template <class T>
