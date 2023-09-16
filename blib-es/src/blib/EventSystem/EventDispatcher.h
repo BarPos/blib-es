@@ -23,6 +23,7 @@ namespace blib {
 						listener->handle(event);
 					}
 				}
+				delete event;
 			}
 		}
 	}
